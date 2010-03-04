@@ -1,0 +1,14 @@
+Localization.
+Coding guide lines.
+Fix icons.
+Update manual.
+
+BE_GROUPS record template for each TS Template Record or Dummy page - etc. TEMPLATE_12 (where 12 is the uid for the template)
+HOOK for inserting special uids by marker
+Translation of uids on int fields - how should this be defined? Through a Special IRRE Record where you can choose table/field to translate - or some typoscript alike in the setup field?
+Automatic password generation.
+Different markers:
+###TITLE###
+
+Freesite Creator - Site configuration:
+Hook to choose which new site to config from tt_address records. 
